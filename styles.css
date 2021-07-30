@@ -46,33 +46,6 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing        : border-box;
 }
-/* 
-.heading {
-    display          : -webkit-box;
-    display          : -ms-flexbox;
-    display          : flex;
-    -webkit-box-align: center;
-    -ms-flex-align   : center;
-    align-items      : center;
-    -webkit-box-pack : center;
-    -ms-flex-pack    : center;
-    justify-content  : center;
-    margin-bottom    : 1rem;
-}
-
-.heading-img {
-    width: 24%;
-}
-
-.heading-title {
-    -webkit-transform: rotate(2deg);
-    -ms-transform    : rotate(2deg);
-    transform        : rotate(2deg);
-    padding          : 0.2rem 1.2rem;
-    border-radius    : 20% 5% 20% 5% / 5% 20% 25% 20%;
-    background-color : #00FFC2;
-    font-size        : 1.5rem;
-} */
 
 input,
 button {
@@ -197,10 +170,6 @@ h3 {
 .todo__title-wrap--todo {
     margin-bottom: 10px;
 }
-
-/* .icon__add:hover {
-    background-color: #2CC990;
-} */
 
 .material-icons {
     font-size: 22px;
@@ -361,13 +330,4 @@ input[type="checkbox"]:checked:after {
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-    /*
-     * If you want to fully change the check appearance, use the following:
-     * content: " ";
-     * width: 100%;
-     * height: 100%;
-     * background: blue;
-     * top: 0;
-     * left: 0;
-     */
 }
