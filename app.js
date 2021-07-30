@@ -31,14 +31,6 @@ const countUpdate = () => {
     localStorage.completedContent = doneList.innerHTML;
 }
 
-// Checkboxes always checked/unchecked depending on the list
-// for (let i = 0; i < checkedTasks.length; i++) {
-//     checkedTasks[i].checked = true;
-// }
-// for (let i = 0; i < uncheckedTasks.length; i++) {
-//     uncheckedTasks[i].checked = false;
-// }
-
 // Adding new task
 const addTask = () => {
     let taskName = taskInput.value;
@@ -196,21 +188,8 @@ labelAdd.addEventListener('click', () => {
     taskInput.classList.toggle('is-hidden');
 });
 
-// Add new task - listeners
-// taskInput.addEventListener('keydown', function (e) {
-//     if (e.which === 13) //enter
-//     {
-//         addTask();
-//     }
-// });
-
 buttonAdd.addEventListener('click', addTask);
 
-// Local storage
-// saveButton.addEventListener('click', () => {
-//     localStorage.incompleteContent = todoList.innerHTML;
-//     localStorage.completedContent = doneList.innerHTML;
-// });
 
 if (localStorage.getItem('incompleteContent')) {
     todoList.innerHTML = localStorage.getItem('incompleteContent');
